@@ -108,3 +108,35 @@ form {
     gap:10px;
     margin-right: 20%;
 }
+
+.address, .maps {
+    display: flex;
+    justify-content: space-between;
+    margin:30px;
+    margin-bottom: 150px;
+
+}
+
+.address_contact {
+    margin-top: 150px;
+}
+.occasion_gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px, 300px;
+    gap: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15%;
+    margin-top: 100px;
+} 
+
+.occasion_gallery img {
+    width: 400px;
+    height: 270px;
+    display:flex;
+    object-fit: cover;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
